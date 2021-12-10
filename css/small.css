@@ -1,0 +1,404 @@
+/* HOME PAGE HEADER AND NAV */
+body {
+  overflow-x: hidden;
+  background-color: #FAFAFF;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .headerbar {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FAFAFF;
+  }
+/* large view hidden small */
+.socials {
+  display: none;
+}
+.phone {
+  display: none;
+}
+/* small view hidden large */
+.socials-footer {
+  display: block;
+  font-size: 50px;
+}
+.phone-footer {
+  display: block;
+  font-size: 18px;
+  color: #FAFAFF;
+  font-family: "Titillium Web", sans-serif;
+}
+.socials-footer a:link {
+  text-decoration: none;
+}
+
+.socials-footer a:visited {
+  text-decoration: none;
+}
+
+.socials-footer a:hover {
+  text-decoration: none;
+}
+
+.socials-footer a:active {
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: #FAFAFF;
+  margin-right: 1em;
+  
+}
+.fa-instagram {
+  color: #FAFAFF;
+  margin-right: 1em;
+}
+.fa-twitter {
+  color: #FAFAFF;
+  margin-right: 1em;
+}
+.fa-youtube {
+  color: #FAFAFF;
+}
+
+.phone {
+  color: #FAFAFF;
+}
+.headertitle {
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: .5px;
+  background-color: #FAFAFF;
+  color: #04080F;
+  margin-top: 0px;
+  padding-bottom:5px;
+  font-family: "Staatliches", cursive;
+}
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #183446;
+    font-size: 0px;
+  }
+
+  .navigation {
+    
+    text-align: center;
+    list-style: none;
+    padding: 0;
+
+  }
+  .navigation li:first-child {
+    display: block;
+  }
+  .navigation li {
+    display: none;
+  }
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: right;
+    text-decoration: none;
+    color: #FAFAFF;
+    font-size: 2.75rem;
+    transition: 0.5s;
+    font-family: "Staatliches", cursive;
+  }
+  .navigation a:hover {
+    background-color: #fafaff;
+    color: #183446;
+  }
+  
+  .responsive li {
+    display: block;
+  }
+  
+
+/* ------------------------- */
+
+.heroimage {
+  width: 100%;
+}
+
+
+.herotext h1 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.objectives li {
+  list-style:disc;
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.purpose h3 {
+  text-align: left;
+  font-size: 4em;
+  font-family: "Staatliches", cursive;
+}
+.purpose p {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.objectives {
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+}
+.purpose > h3:nth-child(1) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.purpose > h3:nth-child(2) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.herocontainer {
+  position: relative;
+  text-align: left;
+}
+
+.heroimage {
+  width: 100%;
+}
+
+.herotext {
+  color: #183446;
+}
+.herotext h1 {
+  position: relative;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 3em;
+}
+
+.flex-container {
+  background-color: #d0d0d0;
+  text-align: center;
+}
+
+.flex-join h1 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.flex-events h1{
+color: #183446;
+font-family: "Staatliches", cursive;
+letter-spacing: 1px;
+font-size: 2em;
+text-align: center;
+margin-bottom: 0px;
+}
+.flex-weather h1{
+color: #183446;
+font-family: "Staatliches", cursive;
+letter-spacing: 1px;
+font-size: 2em;
+text-align: center;
+margin-bottom: 0px;
+
+}
+.flex-events {
+  flex: 0 1 33.333333%;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  margin-top: 0px;
+  text-align: center;
+  padding-left:0px;
+}
+.flex-events ul, li {
+padding-left:0px;
+list-style: none;
+}
+
+.flex-join {
+  flex: 0 1 33.333333%;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  text-align: center;  
+  border-width: 2px;
+  border-style: double;
+  border-color: #0090c1;
+  margin-top: 0px;
+}
+.flex-join form {
+  margin-bottom:5px;
+}
+.flex-weather {
+  flex: 0 1 33.333333%;
+ margin-top:0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.flex-weather p {
+font-family: "Titillium Web", sans-serif;
+  font-size: 2em;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.currentweather {
+display: flex;
+text-align: center;
+background-color: #183446;
+}
+
+img#icon {
+width: 50px;
+height: auto;
+background-color: #d0d0d0;
+border-radius: 40px;
+}
+
+
+.cards {
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+align-items: center;
+text-align: center;
+font-size: .55em;
+background-color: #183446;
+color: #FAFAFF;
+}
+
+.cards img {
+  width: 50px;
+  height: auto;
+  background-color: #d0d0d0;
+  border-radius: 40px;
+}
+
+
+
+
+footer {
+  background-color: #04080F;
+  padding: 20px;
+  color: #FAFAFF;
+  font-family: "Titillium Web", sans-serif;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.joinmain {
+  margin-left:10px;
+  margin-right:10px;
+  background-color: #d0d0d0;
+  padding: 10px 10px;
+  margin-top: 15px;
+}

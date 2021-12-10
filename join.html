@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+  </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHAMBER | JOIN</title>
+  <meta name="description" content="WDD 230 FINAL PROJECT: TREMONTON CHAMBER OF COMMERCE" />
+  <link rel="shortcut icon" href="images/trelogoicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="/css/small.css" />
+  <link rel="stylesheet" href="/css/medium.css" />
+  <link rel="stylesheet" href="/css/large.css" />
+  <script defer src="js/nav.js"></script>
+  
+  
+</head>
+
+<body>
+  
+  <div class="headerbar">
+    <div class="socials">
+      <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-facebook"></a>
+      <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-instagram"></a>
+      <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-twitter"></a>
+      <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-youtube"></a>
+      
+    </div>
+    
+    <img src="images/trelogo.png" alt="tremontonlogo" />
+
+    <p class="phone">555.123.4567</p>
+  </div>
+  <div class="headertitle">
+    <h1 style="margin-top: 0px">TREMONTON CHAMBER OF COMMERCE</h1>
+  
+  </div>
+  
+
+  <div id="navbar">
+    <ul class="navigation">
+      <li><a class="ham" href="#">≡</a></li>
+      <li><a href="#">City</a></li>
+      <li><a class="active" href="join.html">Join</a></li>
+      <li><a  href="index.html">Home</a></li>
+      <li><a href="#">Directory</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+ <main class="joinmain">
+
+    <h1 class="title"> TREMONTON CHAMBER OF COMMERCE REGISTRATION</h1>
+    <form action="thanks.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname"  required>
+      
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname"  required>
+      
+        <label for="title">Title</label>
+        <input type="text" id="title" name="jobtitle" >
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="emailaddress" required>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+        <label for="businessname">Business Name</label>
+        <input type="text" id="businessname" name="businessname" required>
+
+        <label for="businessaddress">Business Address</label>
+        <input type="text" id="businessadress" name="businessadress" required>
+
+        <label for="businesssite">Business Website</label>
+        <input type="text" id="businesssite" name="businessite">
+        
+        <label for="businessdesc">Business Description</label>
+        <input type="text" id="businessdesc" name="businessdesc" >
+
+        <label for="membership">Membership Level</label>
+        <select id="membership" name="membership" required>
+            <option value=""" disabled selected>Select your membership level</option>
+          <option value="gold">Gold | $1000</option>
+          <option value="silver">Silver | $400</option>
+          <option value="bronze">Bronze | $200</option>
+          <option value="nonprofit">Non-Profit | $100</option>
+        </select>
+    
+
+        <input type="submit" value="Submit">
+    </form>
+        <p>Gold - Priority Directory Listings | Monthly Business Trainings | 4 Sponsored Social Media Posts a month | 3 Lunches Provided by Chamber | 3 Months Ad on Chamber Website</p>
+        <p>Silver - Quarterly Business Trainings | 3 Sponsored Social Media Post a quarter | 1 Lunch Provided | 1 Month Ad on Chamber Website</p>
+        <p>Bronze - Semi-Annual Business Trainings | 2 Semi-Annual Sponsored Social Media Post</p>
+        <p>Non-Profit - Yearly Business Trainings | 1 Sponsored Social Media Post</p>
+    
+
+    </main>
+    <script defer src="js/dates.js"></script>
+    <br />
+    <footer>
+    
+        <div class="socials-footer">
+          <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-facebook"></a>
+          <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-instagram"></a>
+          <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-twitter"></a>
+          <a href="https://youtu.be/dQw4w9WgXcQ?t=10" class="fa fa-youtube"></a>
+        </div>
+        <p class="phone-footer">555.123.4567</p>
+      <p>&copy; <span id="copyrightyear"></span> | TREMONTON CHAMBER OF COMMERCE</p>
+      <p>LAST UPDATED <span id="modified"></span></p>
+  </footer>
+</body>
+
+</html>

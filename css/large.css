@@ -1,0 +1,428 @@
+@media only screen and (min-width: 900px) {
+  main {
+    background-color: #fafaff;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .headerbar {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 28px;
+  }
+  .socials {
+    display: flex;
+  }
+  .phone {
+    display: flex;
+  }
+  .socials-footer {
+    display: none;
+  }
+  .phone-footer {
+    display: none;
+  }
+
+  .socials a:link {
+    text-decoration: none;
+  }
+
+  .socials a:visited {
+    text-decoration: none;
+  }
+
+  .socials a:hover {
+    text-decoration: none;
+  }
+
+  .socials a:active {
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    color: #183446;
+    margin-right: 1em;
+  }
+  .fa-instagram {
+    color: #183446;
+    margin-right: 1em;
+  }
+  .fa-twitter {
+    color: #183446;
+    margin-right: 1em;
+  }
+  .fa-youtube {
+    color: #183446;
+  }
+
+  .phone {
+    color: #183446;
+  }
+  .headertitle {
+    text-align: center;
+    font-size: 20px;
+    color: #183446;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1px;
+  }
+
+  .navigation {
+    display: flex;
+    text-align: center;
+  }
+
+  .navigation a {
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fafaff;
+    font-size: 25px;
+    transition: 0.5s;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1px;
+  }
+
+  .navigation a:hover {
+    background-color: #0090c1;
+    color: #fafaff;
+    --d: 75%;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+    width: 20%;
+  }
+
+  .navigation .active {
+    color: #183446;
+    background-color: #fafaff;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .main {
+    font-size: 18px;
+  }
+
+  .objectives li {
+    list-style: none;
+  }
+
+  .purpose h3 {
+    text-align: left;
+    font-size: 4em;
+    font-family: "Staatliches", cursive;
+  }
+  .purpose p {
+    font-size: 16px;
+    font-family: "Titillium Web", sans-serif;
+  }
+
+  .objectives {
+    font-size: 16px;
+    font-family: "Titillium Web", sans-serif;
+  }
+  .purpose > h3:nth-child(1) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .purpose > h3:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .herocontainer {
+    position: relative;
+    text-align: left;
+  }
+
+  .heroimage {
+    width: 100%;
+  }
+
+  .herotext {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-right:20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  .herotext h1 {
+    position: relative;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3em;
+  }
+
+  .flex-container {
+    display: flex;
+    align-content: center;
+  }
+
+  .flex-join h1 {
+    color: #183446;
+    font-family: "Staatliches", cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+.flex-events h1{
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.flex-weather h1{
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0px;
+
+}
+  .flex-events {
+    flex: 0 1 33.333333%;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    text-align: center;
+    padding-left:0px;
+  }
+.flex-events ul, li {
+  padding-left:0px;
+  list-style: none;
+}
+
+  .flex-join {
+    flex: 0 1 33.333333%;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    text-align: center;  
+  }
+
+  .flex-weather {
+    flex: 0 1 33.333333%;
+   margin-top:0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+.flex-weather p {
+  font-family: "Titillium Web", sans-serif;
+    font-size: 2em;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.currentweather {
+  display: flex;
+  text-align: center;
+  background-color: #183446;
+}
+
+img#icon {
+  width: 50px;
+  height: auto;
+  background-color: #d0d0d0;
+  border-radius: 40px;
+}
+
+.cards {
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+align-items: center;
+text-align: center;
+font-size: 1em;
+}
+
+.cards img {
+  width: 50px;
+  height: auto;
+  background-color: #d0d0d0;
+  border-radius: 40px;
+}
+
+.ads {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #0090c1;
+  padding: 1rem .5rem;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  color: #fafaff;
+  font-size: 1rem;
+}
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+}
+
+/* -------------  HOME PAGE ABOVE ------------- */
+/* ------- JOIN PAGE BELOW ----------------*/
+
+
+.title {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  font-size: 3em;
+  color: #183446;
+}
+
+label {
+  font-family: "Staatliches", cursive;
+  font-size: 2em;
+  color:#183446;
+}
+
+ /* Style inputs */
+ input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 100%;
+  background-color: #183446;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #0090c1;
+} 
+
+.joinmain p {
+  font-family: "Titillium Web", sans-serif;
+}
