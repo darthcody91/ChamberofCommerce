@@ -1,6 +1,8 @@
 @media only screen and (min-width: 900px) {
   main {
     background-color: #fafaff;
+    margin-left:10px;
+    margin-right:10px;
   }
   
   .header {
@@ -253,6 +255,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 align-items: center;
 text-align: center;
 font-size: 1em;
+font-family: "Titillium Web", sans-serif;
 }
 
 .cards img {

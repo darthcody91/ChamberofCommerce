@@ -1,8 +1,14 @@
 /* HOME PAGE HEADER AND NAV */
 body {
   overflow-x: hidden;
-  background-color: #FAFAFF;
+  
 }
+main {
+  background-color: #fafaff;
+  margin-left:10px;
+  margin-right:10px;
+}
+
 .header {
     background-color: #f1f1f1;
     padding: 30px;
@@ -22,6 +28,10 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #FAFAFF;
+  }
+
+  .headerbar img {
+    margin-top: 10px;
   }
 /* large view hidden small */
 .socials {
@@ -109,7 +119,6 @@ body {
   }
   .navigation a {
     display: block;
-    padding: 0.75rem;
     text-align: right;
     text-decoration: none;
     color: #FAFAFF;
@@ -137,6 +146,8 @@ body {
 .herotext h1 {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right:10px;
 }
 
 
@@ -144,6 +155,13 @@ body {
   list-style:disc;
   font-size: 20px;
   font-family: "Titillium Web", sans-serif;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.purpose{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .purpose h3 {
@@ -154,6 +172,7 @@ body {
 .purpose p {
   font-size: 20px;
   font-family: "Titillium Web", sans-serif;
+  
 }
 
 .objectives {
@@ -280,6 +299,7 @@ text-align: center;
 font-size: .55em;
 background-color: #183446;
 color: #FAFAFF;
+font-family: "Titillium Web", sans-serif;
 }
 
 .cards img {
@@ -291,6 +311,13 @@ color: #FAFAFF;
 
 
 
+.ads img {
+  display: block;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-right: 10px;
+}
 
 footer {
   background-color: #04080F;
