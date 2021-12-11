@@ -17,7 +17,7 @@ fetch(forecastURL)
     let day = document.createElement('h3');
     let temp = document.createElement('h3');
     let desc = document.createElement('p');
-    let imagesrc = "http://openweathermap.org/img/wn/" + x.weather[0].icon + '.png';
+    let imagesrc = "https://openweathermap.org/img/wn/" + x.weather[0].icon + '.png';
     let image = document.createElement('img');
 
     day.innerHTML = `${days[weekday]}`.toUpperCase();
