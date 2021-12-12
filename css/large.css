@@ -271,6 +271,54 @@ font-family: "Titillium Web", sans-serif;
   justify-content: space-evenly;
 }
 
+
+.article {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #d0d0d0;
+  
+}
+
+.article img {
+  float: right;
+  width: 700px;
+  position: relative;
+  padding: 15px;
+}
+
+
+.citymain { 
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.citymain h1 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
   background-color: #0090c1;
   padding: 1rem .5rem;
