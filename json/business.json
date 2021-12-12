@@ -5,28 +5,28 @@
             "description": "Bowling Alley",
             "phone": "435-257-1997",
             "website": "bearriverbowling.com",
-            "imageurl": ""
+            "imageurl": "images/brblogo.jpg"
         },
         {
             "name": "The Grille Restaurant",
             "description": "American Restaurant",
             "phone": "435-257-4745",
             "website": "thegrillerestaurant.com",
-            "imageurl": ""
+            "imageurl": "images/grillelogo.jpg"
         },
         {
             "name": "Maverik",
             "description": "Fuel Supplier",
             "phone": "435-214-4455",
             "website": "maverik.com",
-            "imageurl": ""
+            "imageurl": "images/mavlogo.png"
         },
         {
             "name": "Ridley’s Family Markets",
             "description": "Grocery Store",
             "phone": "435-557-7011",
             "website": "shopridleys.com",
-            "imageurl": ""
+            "imageurl": "images/ridlogo.png"
         },
         {
             "name": "Skyway Golf Course",
@@ -40,7 +40,7 @@
             "description": "Transportation Service",
             "phone": "435-257-4570",
             "website": "millerstravelcenter.com",
-            "imageurl": ""
+            "imageurl": "images/millers.png"
         },
         {
             "name": "Tamashi Sushi & Ramen Bar",
@@ -54,14 +54,14 @@
             "description": "Pizza Delivery",
             "phone": "435-257-5881",
             "website": "dominos.com",
-            "imageurl": ""
+            "imageurl": "images/domlogo.jpg"
         },
         {
             "name": "Bear River High School",
             "description": "High School",
             "phone": "435-515-5800",
             "website": "brhs.besd.net",
-            "imageurl": ""
+            "imageurl": "images/brhslogo.jpg"
         }
     ]
 }
