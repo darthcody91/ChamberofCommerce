@@ -340,6 +340,14 @@ font-family: "Titillium Web", sans-serif;
   font-family: "Titillium Web", sans-serif;
 }
 
+.citymain h1 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0px;
+}
 
 
 

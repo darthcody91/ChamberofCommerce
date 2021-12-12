@@ -197,6 +197,7 @@
   font-size: 2em;
   text-align: center;
   margin-bottom: 0px;
+  padding-bottom: 20px;
 
 }
   .flex-events {
@@ -316,7 +317,6 @@ font-family: "Titillium Web", sans-serif;
 
 
 
-
 footer {
   background-color: #0090c1;
   padding: 1rem .5rem;
@@ -330,7 +330,7 @@ footer {
 
 
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
