@@ -9,6 +9,7 @@ main {
   margin-right:10px;
 }
 
+
 .header {
     background-color: #f1f1f1;
     padding: 30px;
@@ -332,6 +333,13 @@ font-family: "Titillium Web", sans-serif;
   position: relative;
   width: 100%;
 }
+
+
+.citymain { 
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+}
+
 
 
 
