@@ -1,0 +1,67 @@
+{
+    "business": [
+        {
+            "name": "Bear River Bowling Center LLC",
+            "description": "Bowling Alley",
+            "phone": "435-257-1997",
+            "website": "bearriverbowling.com",
+            "imageurl": ""
+        },
+        {
+            "name": "The Grille Restaurant",
+            "description": "American Restaurant",
+            "phone": "435-257-4745",
+            "website": "thegrillerestaurant.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Maverik",
+            "description": "Fuel Supplier",
+            "phone": "435-214-4455",
+            "website": "maverik.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Ridley’s Family Markets",
+            "description": "Grocery Store",
+            "phone": "435-557-7011",
+            "website": "shopridleys.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Skyway Golf Course",
+            "description": "Gold Course",
+            "phone": "435-257-5706",
+            "website": "skywaycountryclub.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Miller Travel Centers",
+            "description": "Transportation Service",
+            "phone": "435-257-4570",
+            "website": "millerstravelcenter.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Tamashi Sushi & Ramen Bar",
+            "description": "Restaurant",
+            "phone": "435-257-0978",
+            "website": "tamashisushiramenbar.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Domino’s Pizza",
+            "description": "Pizza Delivery",
+            "phone": "435-257-5881",
+            "website": "dominos.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Bear River High School",
+            "description": "High School",
+            "phone": "435-515-5800",
+            "website": "brhs.besd.net",
+            "imageurl": ""
+        }
+    ]
+}
