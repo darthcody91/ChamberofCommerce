@@ -8,12 +8,15 @@ fetch(requestURL)
         
         const business = jsonObject['business'];
         business.forEach((business) => {
-        let row = document.createElement('row');
-        let column = document.createElement('column');
+        let row = document.createElement('div');
+        row.classList.add("row");
+        let column = document.createElement('div');
+        column.classList.add("column");
         let bizname = document.createElement('h2');
         let bizdesc = document.createElement('p');
+        bizdesc.classList.add("businessdesc");
         let bizphone = document.createElement('p');
-        let bizsite = document.createElement('a');
+        let bizsite = document.createElement('p');
         let imagesrc = business.imageurl;
         let image = document.createElement('img');
 
@@ -26,13 +29,16 @@ fetch(requestURL)
 
         row.appendChild(column);
         column.appendChild(bizname);
+        column.appendChild(image);
         column.appendChild(bizdesc);
         column.appendChild(bizphone);
         column.appendChild(bizsite);
-        column.appendChild(image);
+        
 
         document.querySelector('div.bizdirect').appendChild(row);
 
         });
+
+        
 
     });

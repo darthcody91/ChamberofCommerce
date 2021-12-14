@@ -304,18 +304,33 @@ font-family: "Titillium Web", sans-serif;
 }
 
 
+.bizdirect {
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:10px;
+  text-align: center;
+}
 
+.column img {
+  width:40%;
+}
 
+.column h2 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size:2em;
+}
 
+.column p {
+  color: #183446;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.25em;
+}
 
-
-
-
-
-
-
-
-
+.businessdesc {
+  font-style: italic;
+}
 
 footer {
   background-color: #0090c1;

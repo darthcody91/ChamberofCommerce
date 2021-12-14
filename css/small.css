@@ -350,7 +350,14 @@ font-family: "Titillium Web", sans-serif;
 }
 
 
+.bizdirect{  
+  grid-template-columns:repeat(2, 1fr);  
+  text-align: center;
+  }
 
+.column img {
+  width:25%;
+}
 
 
 footer {
