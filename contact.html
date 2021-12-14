@@ -12,17 +12,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CHAMBER | DIRECTORY</title>
+  <title>CHAMBER | CONTACT</title>
   <meta name="description" content="WDD 230 FINAL PROJECT: TREMONTON CHAMBER OF COMMERCE" />
   <link rel="shortcut icon" href="images/trelogoicon.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  
+ 
 
  
   <link rel="stylesheet" href="css/small.css" />
   <link rel="stylesheet" href="css/large.css" />
   <script defer src="js/nav.js"></script>
-  <script defer src="js/business.js"></script>
+ 
  
   
 </head>
@@ -54,13 +54,31 @@
       <li><a href="city.html">City</a></li>
       <li><a href="join.html">Join</a></li>
       <li><a  href="index.html">Home</a></li>
-      <li><a class="active" href="directory.html">Directory</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a  href="directory.html">Directory</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
     </ul>
   </div>
   <main>
  
-    <div class="bizdirect"></div>
+   <main class="joinmain">
+
+    <h1 class="title"> CONTACT US</h1>
+    <form action="contactthanks.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"  required>
+    
+        <label for="email">Email</label>
+        <input type="text" id="email" name="emailaddress" required>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Comments..." style="height:200px"></textarea>
+    
+
+        <input type="submit" value="Submit">
+    </form>
   
 
     </main>
