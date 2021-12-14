@@ -360,6 +360,76 @@ font-family: "Titillium Web", sans-serif;
 }
 
 
+.flexwrapper {
+  margin: 15px;
+  text-align: center;
+}
+
+.flexrow {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flexcolumn {
+  display: block;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.flexcolumn h2 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+.flexcolumn p {
+  margin: 0px;
+  font-size: 1.25em;
+}
+
+.board ul {
+  color: #183446;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.25em;
+  padding: 0px;
+}
+
+.board li {
+  list-style-type: none;
+  color: #183446;
+}
+
+.contactmain {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #d0d0d0;
+  padding: 0px;
+}
+.contactform {
+  padding: 10px 10px;
+}
+
+
+
+
 footer {
   background-color: #04080F;
   padding: 20px;
