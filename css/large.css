@@ -1,8 +1,8 @@
 @media only screen and (min-width: 900px) {
   main {
     background-color: #fafaff;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .header {
@@ -305,6 +305,19 @@
     text-align: center;
   }
 
+
+
+.cityevents {
+  text-align: center;
+}
+
+.cityevents ul {
+  padding: 0px;
+}
+
+
+
+
   .column img {
     width: 40%;
   }
@@ -515,7 +528,7 @@ label {
   color: #183446;
 }
 
-/* Style inputs */
+
 input[type="text"],
 select {
   width: 100%;
@@ -527,7 +540,6 @@ select {
   box-sizing: border-box;
 }
 
-/* Style the submit button */
 input[type="submit"] {
   width: 100%;
   background-color: #183446;
@@ -539,11 +551,17 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* Add a background color to the submit button on mouse-over */
 input[type="submit"]:hover {
   background-color: #0090c1;
 }
 
 .joinmain p {
   font-family: "Titillium Web", sans-serif;
+}
+.joinmain {
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #d0d0d0;
+  padding: 10px 10px;
+  margin-top: 15px;
 }

@@ -540,3 +540,20 @@ footer {
   padding: 10px 10px;
   margin-top: 15px;
 }
+
+.column h2 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+.column p {
+  color: #183446;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.25em;
+}
+
+.businessdesc {
+  font-style: italic;
+}
